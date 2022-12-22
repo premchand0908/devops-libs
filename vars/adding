@@ -1,8 +1,8 @@
 def call() {
-script{
-def varOne=params.varOne as int
-def varTwo=params.varTwo as int
-def result=varOne+varTwo
-echo "the value is ${result} "
-}
+  script{
+    def varOne=params.varOne as int
+    def varTwo=params.varTwo as int
+    def result=varOne+varTwo
+    echo "the value is ${result} "
+  }
 }
